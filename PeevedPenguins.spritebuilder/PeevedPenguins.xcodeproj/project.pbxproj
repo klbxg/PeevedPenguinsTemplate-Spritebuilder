@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F51D6A91A78612500017BA3 /* Gameplay.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F51D6A81A78612500017BA3 /* Gameplay.m */; };
 		6F9AC1921A76002E00860C73 /* Penguin.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9AC1911A76002E00860C73 /* Penguin.m */; };
 		6F9AC1961A76003D00860C73 /* Seal.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9AC1951A76003D00860C73 /* Seal.m */; };
 		8392007A18EE8E3300B6C429 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8392007918EE8E3300B6C429 /* GLKit.framework */; };
@@ -41,6 +42,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		6F51D6AE1A78612600017BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D2FEB74F194F6C9E00FC0574;
+			remoteInfo = cocos2dAndroid;
+		};
+		6F51D6B01A78612600017BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5BF3267A195F8D8800D9A51A;
+			remoteInfo = cocos2dJava;
+		};
+		6F51D6B21A78612600017BA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7A4037A819E37038007B6E8F;
+			remoteInfo = "cocos2d-mac";
+		};
 		B737894A180761A90076A88C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
@@ -58,6 +80,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6F51D6A71A78612500017BA3 /* Gameplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Gameplay.h; path = Source/Gameplay.h; sourceTree = "<group>"; };
+		6F51D6A81A78612500017BA3 /* Gameplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Gameplay.m; path = Source/Gameplay.m; sourceTree = "<group>"; };
 		6F9AC1901A76002E00860C73 /* Penguin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Penguin.h; path = Source/Penguin.h; sourceTree = "<group>"; };
 		6F9AC1911A76002E00860C73 /* Penguin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Penguin.m; path = Source/Penguin.m; sourceTree = "<group>"; };
 		6F9AC1941A76003D00860C73 /* Seal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seal.h; path = Source/Seal.h; sourceTree = "<group>"; };
@@ -133,6 +157,8 @@
 			children = (
 				6F9AC1901A76002E00860C73 /* Penguin.h */,
 				6F9AC1911A76002E00860C73 /* Penguin.m */,
+				6F51D6A71A78612500017BA3 /* Gameplay.h */,
+				6F51D6A81A78612500017BA3 /* Gameplay.m */,
 				6F9AC1941A76003D00860C73 /* Seal.h */,
 				6F9AC1951A76003D00860C73 /* Seal.m */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
@@ -147,6 +173,9 @@
 			isa = PBXGroup;
 			children = (
 				B737894B180761A90076A88C /* libcocos2d.a */,
+				6F51D6AF1A78612600017BA3 /* libcocos2dAndroid.a */,
+				6F51D6B11A78612600017BA3 /* cocos2dJava.jar */,
+				6F51D6B31A78612600017BA3 /* libcocos2d-mac.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -294,6 +323,27 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		6F51D6AF1A78612600017BA3 /* libcocos2dAndroid.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libcocos2dAndroid.a;
+			remoteRef = 6F51D6AE1A78612600017BA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F51D6B11A78612600017BA3 /* cocos2dJava.jar */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.jar;
+			path = cocos2dJava.jar;
+			remoteRef = 6F51D6B01A78612600017BA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		6F51D6B31A78612600017BA3 /* libcocos2d-mac.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libcocos2d-mac.a";
+			remoteRef = 6F51D6B21A78612600017BA3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		B737894B180761A90076A88C /* libcocos2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -355,6 +405,7 @@
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				6F9AC1921A76002E00860C73 /* Penguin.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				6F51D6A91A78612500017BA3 /* Gameplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
