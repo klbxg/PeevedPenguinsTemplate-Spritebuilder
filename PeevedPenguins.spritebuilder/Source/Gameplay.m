@@ -47,8 +47,12 @@
 }
 
 - (void)retry {
+    CCNode* penguin = [CCBReader load:@"Penguin"];
+
+    [_physicsNode addChild:penguin];
     // reload this level
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
+    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     [self runAction:follow];
 
 }
