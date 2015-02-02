@@ -40,13 +40,6 @@
     [self performSelector:@selector(startBlinkAndJump) withObject:nil afterDelay:delay];
 }
 
-- (void)startBlinkAndJump
-{
-    // the animation manager of each node is stored in the 'animationManager' property
-    CCAnimationManager* animationManager = self.animationManager;
-    // timelines can be referenced and run by name
-    [animationManager runAnimationsForSequenceNamed:@"BlinkAndJump"];
-}
 
 // called on every touch in this scene
 -(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
