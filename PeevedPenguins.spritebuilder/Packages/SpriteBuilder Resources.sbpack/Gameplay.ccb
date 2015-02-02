@@ -726,8 +726,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>12.781280517578125</real>
-											<real>10.503921508789062</real>
+											<real>16.214874267578125</real>
+											<real>16.2265625</real>
 										</array>
 										<array>
 											<real>2.835968017578125</real>
@@ -758,16 +758,16 @@
 											<real>34.32421875</real>
 										</array>
 										<array>
-											<real>214.74615478515625</real>
-											<real>9.48828125</real>
+											<real>214.77349853515625</real>
+											<real>15.18359375</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>214.74615478515625</real>
-												<real>9.48828125</real>
+												<real>214.77349853515625</real>
+												<real>15.18359375</real>
 											</array>
 											<array>
 												<real>216.02349853515625</real>
@@ -810,12 +810,12 @@
 												<real>43.53515625</real>
 											</array>
 											<array>
-												<real>12.781280517578125</real>
-												<real>10.503921508789062</real>
+												<real>16.214874267578125</real>
+												<real>16.2265625</real>
 											</array>
 											<array>
-												<real>214.74615478515625</real>
-												<real>9.48828125</real>
+												<real>214.77349853515625</real>
+												<real>15.18359375</real>
 											</array>
 											<array>
 												<real>160.95318603515625</real>
@@ -916,6 +916,8 @@
 										<array/>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1652,8 +1654,6 @@
 								<string>WaitingPenguin.ccb</string>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
 					</dict>
 					<dict>
 						<key>UUID</key>
