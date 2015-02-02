@@ -165,7 +165,7 @@
 					<key>value</key>
 					<array>
 						<real>233</real>
-						<real>299</real>
+						<real>297.33828735351562</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -1160,14 +1160,6 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>visible</string>
-										<key>type</key>
-										<string>Check</string>
-										<key>value</key>
-										<false/>
-									</dict>
-									<dict>
-										<key>name</key>
 										<string>name</string>
 										<key>type</key>
 										<string>StringSimple</string>
@@ -1219,15 +1211,13 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
-											<real>1</real>
+											<real>0.94945114850997925</real>
+											<real>0.88130539655685425</real>
 											<false/>
 											<integer>0</integer>
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -1313,14 +1303,6 @@
 								<array>
 									<dict>
 										<key>name</key>
-										<string>visible</string>
-										<key>type</key>
-										<string>Check</string>
-										<key>value</key>
-										<false/>
-									</dict>
-									<dict>
-										<key>name</key>
 										<string>name</string>
 										<key>type</key>
 										<string>StringSimple</string>
@@ -1372,13 +1354,15 @@
 										<string>ScaleLock</string>
 										<key>value</key>
 										<array>
-											<real>1</real>
-											<real>1</real>
+											<real>0.51666587591171265</real>
+											<real>0.66330611705780029</real>
 											<false/>
 											<integer>0</integer>
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 								<key>seqExpanded</key>
 								<true/>
 							</dict>
