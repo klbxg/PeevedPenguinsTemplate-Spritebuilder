@@ -1087,8 +1087,6 @@
 								<string></string>
 								<key>displayName</key>
 								<string>CCNode</string>
-								<key>hidden</key>
-								<true/>
 								<key>memberVarAssignmentName</key>
 								<string>_pullbackNode</string>
 								<key>memberVarAssignmentType</key>
@@ -1160,6 +1158,14 @@
 								</dict>
 								<key>properties</key>
 								<array>
+									<dict>
+										<key>name</key>
+										<string>visible</string>
+										<key>type</key>
+										<string>Check</string>
+										<key>value</key>
+										<false/>
+									</dict>
 									<dict>
 										<key>name</key>
 										<string>name</string>
@@ -1309,6 +1315,14 @@
 								<array>
 									<dict>
 										<key>name</key>
+										<string>visible</string>
+										<key>type</key>
+										<string>Check</string>
+										<key>value</key>
+										<false/>
+									</dict>
+									<dict>
+										<key>name</key>
 										<string>name</string>
 										<key>type</key>
 										<string>StringSimple</string>
@@ -1367,6 +1381,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>seqExpanded</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
