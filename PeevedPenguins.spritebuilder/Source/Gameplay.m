@@ -130,6 +130,9 @@
         } key:nodeA];
     }
 }
+- (void)sealRemoved:(CCNode *)seal {
+    [seal removeFromParent];
+}
 
 - (void)retry {
     // reload this level
