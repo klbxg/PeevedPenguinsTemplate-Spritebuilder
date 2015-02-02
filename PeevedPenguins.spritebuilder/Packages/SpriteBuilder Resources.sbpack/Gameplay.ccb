@@ -267,8 +267,6 @@
 					<real>500</real>
 				</dict>
 			</array>
-			<key>selected</key>
-			<true/>
 		</dict>
 	</array>
 	<key>jsControlled</key>
@@ -889,12 +887,12 @@
 											<real>0.0</real>
 										</array>
 										<array>
-											<real>0.0</real>
-											<real>61</real>
+											<real>0.4765625</real>
+											<real>37.00390625</real>
 										</array>
 										<array>
-											<real>960</real>
-											<real>61</real>
+											<real>959.73834228515625</real>
+											<real>41.82421875</real>
 										</array>
 										<array>
 											<real>960</real>
@@ -909,12 +907,12 @@
 												<real>0.0</real>
 											</array>
 											<array>
-												<real>960</real>
-												<real>61</real>
+												<real>959.73834228515625</real>
+												<real>41.82421875</real>
 											</array>
 											<array>
-												<real>0.0</real>
-												<real>61</real>
+												<real>0.4765625</real>
+												<real>37.00390625</real>
 											</array>
 											<array>
 												<real>0.0</real>
@@ -1015,6 +1013,8 @@
 										<array/>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
