@@ -14,7 +14,7 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
-    CCNode *_pullbackNode;
+    //CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
 }
@@ -28,7 +28,7 @@
     // visualize physics bodies & joints
     _physicsNode.debugDraw = TRUE;
     // nothing shall collide with our invisible nodes
-    _pullbackNode.physicsBody.collisionMask = @[];
+    //_pullbackNode.physicsBody.collisionMask = @[];
     _mouseJointNode.physicsBody.collisionMask = @[];
 }
 
